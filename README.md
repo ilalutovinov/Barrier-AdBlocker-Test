@@ -64,8 +64,9 @@ Barrier-AdBlocker-Test/           # Main project folder
 ├── logo.png                      # Header logo
 ├── README.md                     # Project documentation
 ├── images/                       # Screenshots for README
-│   ├── barrier-test-start.png       # Start screen
-│   ├── barrier-test-progress.png    # During check
-│   └── barrier-test-result.png      # Final result
-└── .gitignore                    # Git ignore rules
+│   ├── logo.png              # Logo for README
+│   ├── screenshot1.jpg       # Screenshot
+│   ├── screenshot2.jpg       # Screenshot
+│   └── screenshot3.jpg       # Screenshot
+└── .gitignore                   # Git ignore rules
 ```
