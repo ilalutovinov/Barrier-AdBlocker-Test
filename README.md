@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/vision-ui-dashboard-chakra.svg?maxAge=2592000)](https://github.com/creativetimofficial/vision-ui-dashboard-chakra/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/vision-ui-dashboard-chakra.svg?maxAge=2592000)](https://github.com/creativetimofficial/vision-ui-dashboard-chakra/issues?q=is%3Aissue+is%3Aclosed)
 
-<img src="logo.png" height="150px"/>  
+<img src="images/logo.png" height="150px"/>  
 
 ## 📌 Project Description
 
@@ -23,9 +23,9 @@ It helps to determine how many unwanted domains are actually being blocked by yo
 If you don't block all the hosts but you want to, you can use:
 - My custom hosts list → [hosts-list.txt](https://github.com/ilalutovinov/Barrier-AdBlocker-Test-/blob/main/hosts-list.txt)
 
-![screenshot1](screenshot1.jpg)
+![screenshot1](images/screenshot1.jpg)
 
-![screenshot3](screenshot3.jpg)
+![screenshot3](images/screenshot3.jpg)
 - The final percentage and a list of unblocked domains, if any, are displayed.
 
 ### ⚠️ Important: Limitations
