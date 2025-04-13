@@ -38,7 +38,6 @@ If you don't block all the hosts but you want to, you can use:
 >
 > Nevertheless, it’s a **convenient and fast way** to evaluate the effectiveness of your ad and tracker blocking.
 
----
 
 ### 🧠 How It Works
 
