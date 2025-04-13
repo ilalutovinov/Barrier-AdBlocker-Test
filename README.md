@@ -8,8 +8,8 @@ This tool allows you to check if your adblock solution is blocking enough hosts.
 If you don't block all the hosts but you want to , you can use
 - My hosts txt list -> [hosts-list.txt](https://github.com/ilalutovinov/Barrier-AdBlocker-Test-/blob/main/hosts-list.txt)
 
-![screenshot1](images/barrier-test-progress.png)
-![screenshot2](images/barrier-test-progress.png)
-![screenshot3](images/barrier-test-progress.png)
+![screenshot1](screenshot1.jpg)
+![screenshot2](screenshot2.jpg)
+![screenshot3](screenshot3.jpg)
 
 
