@@ -28,6 +28,16 @@ If you don't block all the hosts but you want to, you can use:
 ![screenshot3](screenshot3.jpg)
 - The final percentage and a list of unblocked domains, if any, are displayed.
 
+### ⚠️ Important: Limitations
+
+> This tool is **not a perfect diagnostic method**. It cannot guarantee 100% accuracy:
+>
+> - Browsers may cache responses or handle `no-cors` requests differently.
+> - Some domains may be blocked at the IP level, which is not always detectable.
+> - A request might succeed even if the actual ad content is blocked by other filters.
+>
+> Nevertheless, it’s a **convenient and fast way** to evaluate the effectiveness of your ad and tracker blocking.
+
 ---
 
 ### 🧠 How It Works
@@ -42,7 +52,6 @@ If you don't block all the hosts but you want to, you can use:
   - A circular progress bar animates.
   - A list of unblocked domains is shown if applicable.
 
----
 
 ## 📁 Project Structure
 
@@ -59,17 +68,4 @@ Barrier-AdBlocker-Test/           # Main project folder
 │   ├── barrier-test-progress.png    # During check
 │   └── barrier-test-result.png      # Final result
 └── .gitignore                    # Git ignore rules
-
 ```
-
-### ⚠️ Important: Limitations
-
-> This tool is **not a perfect diagnostic method**. It cannot guarantee 100% accuracy:
->
-> - Browsers may cache responses or handle `no-cors` requests differently.
-> - Some domains may be blocked at the IP level, which is not always detectable.
-> - A request might succeed even if the actual ad content is blocked by other filters.
->
-> Nevertheless, it’s a **convenient and fast way** to evaluate the effectiveness of your ad and tracker blocking.
-
-
