@@ -17,4 +17,13 @@ If you don't block all the hosts but you want to , you can use
 ![screenshot1](screenshot1.jpg)
 ![screenshot3](screenshot3.jpg)
 
-
+## Project structure
+```bash
+Barrier-AdBlocker-Test/           # Основная папка проекта
+│
+├── index.html                    # Главная HTML-страница (одностраничный сайт)
+│
+├── style.css                     # Стилизация страницы
+│
+└── script.js                     # Логика теста блокировки рекламы
+```
