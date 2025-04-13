@@ -1,0 +1,103 @@
+/* === Base & Layout === */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    max-width: 500px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 10px 0 20px;
+    color: #444;
+  }
+  
+  /* === Progress Circle === */
+  .progress-container {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin: 20px auto 30px;
+  }
+  
+  .progress-ring {
+    transform: rotate(-90deg);
+    width: 140px;
+    height: 140px;
+  }
+  
+  .progress-ring__circle--bg {
+    fill: none;
+    stroke: #e5e7eb;
+    stroke-width: 12;
+  }
+  
+  .progress-ring__circle {
+    fill: none;
+    stroke-width: 12;
+    stroke-linecap: round;
+    stroke-dasharray: 377;  /* 2π * 60 (r=60) */
+    stroke-dashoffset: 377;
+    transition: stroke-dashoffset 1s ease, stroke 0.5s ease;
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: bold;
+    transition: color 0.5s;
+  }
+  
+  /* === Button === */
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #666666;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    background-color: #353535;
+  }
+  

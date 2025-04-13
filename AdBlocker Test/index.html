@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barrier AdBlock Test</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-title">
+        <img src="logo.png" alt="Barrier Logo" class="logo">
+        <h1>Barrier AdBlock Test</h1>
+      </div>
+    </header>
+
+    <div class="progress-container">
+      <svg class="progress-ring" width="140" height="140">
+        <circle class="progress-ring__circle--bg" cx="70" cy="70" r="60"></circle>
+        <circle id="progressCircle" class="progress-ring__circle" cx="70" cy="70" r="60"></circle>
+      </svg>
+      <div id="percentage" class="percentage">0%</div>
+    </div>
+
+    <button id="testButton">Check</button>
+
+    <p>Click the button to check how many ad domains are blocked for you.</p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
