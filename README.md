@@ -9,7 +9,6 @@ If you don't block all the hosts but you want to , you can use
 - My hosts txt list -> [hosts-list.txt](https://github.com/ilalutovinov/Barrier-AdBlocker-Test-/blob/main/hosts-list.txt)
 
 ![screenshot1](screenshot1.jpg)
-![screenshot2](screenshot2.jpg)
 ![screenshot3](screenshot3.jpg)
 
 
