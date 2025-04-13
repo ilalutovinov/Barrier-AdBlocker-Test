@@ -17,7 +17,7 @@
 It helps to determine how many unwanted domains are actually being blocked by your system. This can be useful for:
 
 - Regular users who want to know if their AdBlock is working;
-- System administrators and enthusiasts configuring local filters (e.g., Pi-hole, AdGuard Home);
+- System administrators and enthusiasts configuring local filters (e.g., Barrier, Pi-hole, AdGuard Home);
 - Testing DNS blocking or proxy filters.
 
 If you don't block all the hosts but you want to, you can use:
